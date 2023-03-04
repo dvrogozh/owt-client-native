@@ -106,7 +106,7 @@ def getoutputpath(arch, scheme):
 
 def ninjabuild(arch, scheme):
     out_path = getoutputpath(arch, scheme)
-    if subprocess.call(['ninja.bat', '-C', out_path], cwd=HOME_PATH) != 0:
+    if subprocess.call(['ninja.bat', '-j8', '-C', out_path], cwd=HOME_PATH) != 0:
         return False
     return True
 
