@@ -40,7 +40,8 @@ patchList = [
     ('0006-Fix-FFMPEG-config-for-MSVC-build.patch', FFMPEG_PATH),
     ('0007-Getting-install-build-deps-to-work-on-Ubuntu-22.04-L.patch', BUILD_PATH),
     ('0008-Allow-ffmpeg_branding-OWT.patch', FFMPEG_PATH),
-    ('0009-Add-an-GN-variable-for-using-BoringSSL.patch', LIBSRTP_PATH)
+    ('0009-Add-an-GN-variable-for-using-BoringSSL.patch', LIBSRTP_PATH),
+    ('0010-third_party-libaom-update-aom-to-35410dede.patch', THIRD_PARTY_PATH)
 ]
 
 def _patch(ignoreFailures=False):
