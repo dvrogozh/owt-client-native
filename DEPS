@@ -282,7 +282,7 @@ deps = {
   'src/third_party/dav1d/libdav1d':
     'https://chromium.googlesource.com/external/github.com/videolan/dav1d.git@87f9a81cd770e49394a45deca7a3df41243de00b',
   'src/third_party/libaom/source/libaom':
-    'https://aomedia.googlesource.com/aom.git@35410dede1a3a25d59e0704f2c139e737a6d6398',
+    'https://aomedia.googlesource.com/aom.git@6ed0c7a325496866640ea0f8b3d6862d409d9a15',
   'src/third_party/libunwindstack': {
       'url': 'https://chromium.googlesource.com/chromium/src/third_party/libunwindstack.git@e184bd94bf23148bf5f3a983f9d740ddb86fd46e',
       'condition': 'checkout_android',
